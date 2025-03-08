@@ -522,26 +522,26 @@ h3 {
 }
 
 .btn {
-  position: absolute;
-  bottom: 1rem;
-  width: 13rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  transition-duration: 200ms;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Alata;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .3em;
 }
 
-.group:hover .btn {
-  --tw-scale-x: 1.1;
-  --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-@media (min-width: 768px) {
-  .btn {
-    bottom: 2rem;
-  }
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .absolute {
@@ -1059,9 +1059,9 @@ h3 {
     padding-right: 0px;
   }
 
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:pl-20 {
